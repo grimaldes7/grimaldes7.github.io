@@ -1,0 +1,344 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(184, 182, 182);
+    justify-content: center;
+    
+}
+.nav{
+    width: 800px;
+    margin: auto;
+}
+#barra{
+    
+    background-color: white;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+ 
+}
+.enlace1{
+    margin-top: 30px;
+}
+
+.enlace1 a{
+    background-color: rgb(255, 123, 0);
+    color: white;
+    width: 120px;
+    height: 60px;
+    padding: 25px;
+    text-decoration: none;
+    border-radius: 5px ;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0px 1px 10px rgb(0,0,0,0.2);
+    cursor: default;
+    transition: all 400ms ease;
+}
+.enlace1 a:hover{
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 4px;
+    
+}
+.enlace2{
+    margin-top: 30px;
+}
+
+.enlace2 a{
+    background-color:rgb(185, 10, 4);
+    color: white;
+    width: 120px;
+    height: 60px;
+    padding: 25px;
+    text-decoration: none;
+    border-radius: 5px ;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0px 1px 10px rgb(0,0,0,0.2);
+    cursor: default;
+    transition: all 400ms ease;
+}
+.enlace2 a:hover{
+    color: rgb(185, 10, 4);
+    background-color: white;
+    border: 2px solid rgb(185, 10, 4);
+    border-radius: 4px;
+    
+}
+.enlace3{
+    margin-top: 30px;
+}
+
+.enlace3 a{
+    background-color:rgba(0, 201, 30, 0.651);
+    color: white;
+    width: 120px;
+    height: 60px;
+    padding: 25px;
+    text-decoration: none;
+    border-radius: 5px ;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0px 1px 10px rgb(0,0,0,0.2);
+    cursor: default;
+    transition: all 400ms ease;
+}
+.enlace3 a:hover{
+    color: rgba(0, 201, 30, 0.651);
+    background-color: white;
+    border: 2px solid rgba(0, 201, 30, 0.651);
+    border-radius: 4px;
+    
+}
+.enlace4{
+    margin-top: 30px;
+}
+
+.enlace4 a{
+    background-color:rgb(9, 153, 189);
+    color: white;
+    width: 120px;
+    height: 60px;
+    padding: 25px;
+    text-decoration: none;
+    border-radius: 5px ;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0px 1px 10px rgb(0,0,0,0.2);
+    cursor: default;
+    transition: all 400ms ease;
+}
+.enlace4 a:hover{
+    color: rgb(9, 153, 189);
+    background-color: white;
+    border: 2px solid rgb(9, 153, 189);
+    border-radius: 4px;
+    
+}
+
+
+.container{
+    width: 800px;
+    margin: auto;
+    margin-top: 5px;
+    
+}
+
+#header{
+    background-color:rgb(88, 88, 88);
+    margin-bottom: 5px;
+    height: 50px;
+    text-align: center;
+    color: azure;
+
+
+}
+#seccion{
+    background-color: rgb(223, 222, 222);
+    height: 500px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+
+}
+
+.presentacion{
+   background-color: rgb(223, 222, 222);
+    width: 500px;
+    height: 480px;
+    margin-right: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.nombre{
+    width: 500px;
+    height: 50px;
+    background-color: rgb(88, 88, 88);
+    text-align: center;
+    color: white;
+}
+.descripcion{
+    width: 500px;
+    height: 350px;
+    background-color:rgb(223, 222, 222);
+    padding: 10px;
+    
+   
+}
+.presentacion p{
+    line-height: 2;
+    font-size: 20px;
+}
+
+button a{
+    
+    text-decoration: none;
+    position: relative;
+    padding: 10px 15px;
+    border: 1px solid white;
+    border-radius: 4px;
+    transition: all 400ms ease;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    
+}
+button a:hover{
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-weight: 100;
+
+}
+
+.foto{
+    width: 270px;
+}
+img{
+    width: 270px;
+    height: 480px;
+}
+
+#article{
+    background-color: white;
+    height: 630px;
+   
+    margin-bottom: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.item{
+   
+    background-color:  rgb(223, 222, 222);
+    text-align: center;
+    justify-content: center;
+    width: 240px;
+    height: 500px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    box-shadow: 0px 1px 10px rgb(0,0,0,0.2);
+    cursor: default;
+    transition: all 400ms ease;
+}
+.item:hover{
+    box-shadow: 5px 5px 20px rgb(0,0,0,0.4);
+    transform: translateY(-3%);
+}
+.uno{
+    width: 190px;
+    height: 50px;
+    margin-top: 30px;
+    
+}
+.dos{
+    margin-top: 40px;
+    width: 190px;
+    height: 520px;
+    background-color:
+}
+#article>button{
+    height: 40px;
+
+}
+#aside{
+    background-color: rgb(223, 222, 222) ;
+    height: 490px;
+    text-align: center;
+    margin-bottom: 5px;
+    justify-content: center;
+    padding-top: 50px;
+}
+iframe{
+width: 600PX;
+}
+
+#footer{
+    background-color:black;
+    height: 130px;
+    padding-top: 10px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+}
+.ruta{
+  
+    width: 110px;
+    height: 90px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.geo a {
+    font-size:70px ;
+    color: green;
+}
+.wsp a {
+    font-size:70px ;
+    color: green;
+    box-shadow: 0px 1px 10px rgb(150, 255, 150);
+    cursor: default;
+    transition: all 200ms ease;
+
+}
+.wsp a:hover{
+    font-size:75px ;
+    box-shadow: 5px 5px 20px green;
+    transform: translateY(-3%);
+}
+.linkedin a {
+    font-size:70px ;
+    color: rgb(33, 166, 243);
+    box-shadow: 0px 1px 10px rgb(143, 211, 250);
+    cursor: default;
+    transition: all 200ms ease;
+}
+.linkedin a:hover{
+    font-size:75px ;
+    box-shadow: 5px 5px 20px rgb(33, 166, 243);
+    transform: translateY(-3%);
+}
+.mail a {
+    font-size:70px ;
+    color: rgb(175, 0, 0);
+    box-shadow: 0px 1px 10px rgb(243, 127, 127);
+    cursor: default;
+    transition: all 200ms ease;
+}
+.mail a:hover{
+    font-size:75px ;
+    box-shadow: 5px 5px 20px rgb(175,0,0);
+    transform: translateY(-3%);
+}
+.face a {
+    font-size:70px ;
+    color: blue;
+    box-shadow: 0px 1px 10px rgb(104, 104, 248);
+    cursor: default;
+    transition: all 200ms ease;
+}
+.face a:hover{
+    font-size:75px ;
+    box-shadow: 5px 5px 20px blue;
+    transform: translateY(-3%);
+}
